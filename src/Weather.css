@@ -2,5 +2,45 @@
   border: 1px solid #30333553;
   border-radius: 4px;
   padding: 15px;
-  margin-top: 30px;
+  margin: 30px auto;
+  font-family: Google Sans, Arial, sans-serif;
+  color: rgba(94, 93, 93, 0.661);
+}
+
+.Weather h1 {
+  font-size: 35px;
+  line-height: 55px;
+  font-weight: 400;
+  margin: 20px 0 0 0;
+}
+
+.Weather ul {
+  padding: 0;
+  margin: 0;
+}
+
+.Weather li {
+  list-style: none;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.Weather img {
+  height: 70px;
+  width: 70px;
+}
+
+.Weather .temperature {
+  font-weight: 400;
+  font-size: 48px;
+  color: #000;
+}
+
+.Weather .unit {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  margin-left: 3px;
+  position: relative;
+  top: -25px;
 }
