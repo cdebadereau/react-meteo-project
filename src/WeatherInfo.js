@@ -14,11 +14,10 @@ export default function WeatherInfo(props) {
       <div className="row mt-3">
         <div className="col-6">
           <div className="clearfix">
-            <img
-              src={props.data.iconUrl}
-              alt={props.data.description}
-              className="float-start text-capitalize"
-            />
+            <div className="float-start">
+              <img src={props.data.iconUrl} alt={props.data.description} />
+            </div>
+
             <div className="float-start ms-3">
               <span className="temperature">
                 {Math.round(props.data.temperature)}
